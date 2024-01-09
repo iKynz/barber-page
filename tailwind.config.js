@@ -9,6 +9,13 @@ module.exports = {
       }),
       height: {
         '95': '95vh'
+      },
+      maxWidth: {
+        '67': '67%'
+      },
+      borderRadius: {
+        'right': '2px solid white',
+        'left': '2px solid'
       }
     },
     fontFamily: {
