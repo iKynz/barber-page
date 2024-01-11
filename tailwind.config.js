@@ -11,11 +11,13 @@ module.exports = {
         '95': '95vh'
       },
       maxWidth: {
-        '67': '67%'
+        '70': '70%'
       },
-      borderRadius: {
-        'right': '2px solid white',
-        'left': '2px solid'
+      colors: {
+        '#c59d5f': '#c59d5f'
+      },
+      padding: {
+        's1': '0 2rem'
       }
     },
     fontFamily: {
