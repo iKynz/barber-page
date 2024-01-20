@@ -21,7 +21,7 @@ module.exports = {
       }
     },
     fontFamily: {
-      teko: ['Teko', 'sans-serif']
+      Mochiy: ['Mochiy Pop One', 'sans-serif']
     }
   },
   plugins: [],
