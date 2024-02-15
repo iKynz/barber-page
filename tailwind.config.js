@@ -5,10 +5,14 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'logo-barber': 'url(/src/img/barber-logo.png)',
-        'backgroundFirst': 'url(/src/img/background-first.jpg)'
+        'backgroundFirst': 'url(/src/img/background-first.jpg)',
+        'ourvideo': 'url(/src/img/mt-2038-ourvideo.jpg)'
       }),
       height: {
-        '95': '95vh'
+        '95': '95vh',
+        '45': '45%',
+        '50vh': '50vh',
+        '33vh': '33vh'
       },
       maxWidth: {
         '70': '70%'
