@@ -588,6 +588,10 @@ video {
   margin-top: 3rem;
 }
 
+.mt-4{
+  margin-top: 1rem;
+}
+
 .mt-40{
   margin-top: 10rem;
 }
@@ -604,10 +608,6 @@ video {
   display: grid;
 }
 
-.h-33vh{
-  height: 33vh;
-}
-
 .h-50vh{
   height: 50vh;
 }
@@ -620,6 +620,34 @@ video {
   height: 100%;
 }
 
+.h-36{
+  height: 9rem;
+}
+
+.h-33vh{
+  height: 33vh;
+}
+
+.h-96{
+  height: 24rem;
+}
+
+.h-20{
+  height: 5rem;
+}
+
+.h-24{
+  height: 6rem;
+}
+
+.h-28{
+  height: 7rem;
+}
+
+.h-32{
+  height: 8rem;
+}
+
 .w-full{
   width: 100%;
 }
@@ -630,6 +658,10 @@ video {
 
 .flex-1{
   flex: 1 1 0%;
+}
+
+.cursor-pointer{
+  cursor: pointer;
 }
 
 .grid-cols-1{
@@ -665,20 +697,16 @@ video {
   border-color: rgb(251 146 60 / var(--tw-border-opacity));
 }
 
+.bg-black\/60{
+  background-color: rgb(0 0 0 / 0.6);
+}
+
 .bg-black\/70{
   background-color: rgb(0 0 0 / 0.7);
 }
 
 .bg-black\/90{
   background-color: rgb(0 0 0 / 0.9);
-}
-
-.bg-black\/50{
-  background-color: rgb(0 0 0 / 0.5);
-}
-
-.bg-black\/60{
-  background-color: rgb(0 0 0 / 0.6);
 }
 
 .bg-backgroundFirst{
@@ -749,6 +777,11 @@ video {
   line-height: 1;
 }
 
+.text-7xl{
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -797,6 +830,11 @@ video {
   border-color: rgb(251 146 60 / var(--tw-border-opacity));
 }
 
+.hover\:text-\#c59d5f:hover{
+  --tw-text-opacity: 1;
+  color: rgb(197 157 95 / var(--tw-text-opacity));
+}
+
 .hover\:text-orange-400:hover{
   --tw-text-opacity: 1;
   color: rgb(251 146 60 / var(--tw-text-opacity));
@@ -810,6 +848,10 @@ video {
 
   .md\:mt-12{
     margin-top: 3rem;
+  }
+
+  .md\:mt-24{
+    margin-top: 6rem;
   }
 
   .md\:mt-4{
@@ -826,6 +868,22 @@ video {
 
   .md\:h-full{
     height: 100%;
+  }
+
+  .md\:h-72{
+    height: 18rem;
+  }
+
+  .md\:h-52{
+    height: 13rem;
+  }
+
+  .md\:h-40{
+    height: 10rem;
+  }
+
+  .md\:h-36{
+    height: 9rem;
   }
 
   .md\:w-max{
@@ -898,6 +956,14 @@ video {
 @media (min-width: 1024px){
   .lg\:mt-56{
     margin-top: 14rem;
+  }
+
+  .lg\:h-96{
+    height: 24rem;
+  }
+
+  .lg\:h-80{
+    height: 20rem;
   }
 
   .lg\:w-2\/3{
