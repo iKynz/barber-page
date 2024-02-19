@@ -30,13 +30,13 @@
                         <a href="#">Home</a>
                     </li>
                     <li class="mx-4 my-5 md:my-0 hover:text-orange-400 transition duration-500">
-                        <a href="#">Services</a>
+                        <a href="#services">Services</a>
                     </li>
                     <li class="mx-4 my-5 md:my-0 hover:text-orange-400 transition duration-500">
-                        <a href="#">Galery</a>
+                        <a href="#galery">Galery</a>
                     </li>
                     <li class="mx-4 my-5 md:my-0 hover:text-orange-400 transition duration-500">
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -48,14 +48,14 @@
                 </h3>
                 <button class="mt-6 p-3 md:p-4 text-2xl md:text-4xl tracking-wider border-2 uppercase 
                 hover:border-orange-400 hover:text-orange-400 transition duration-500">
-                    Contact me
+                    <a href="#contact">Contact me</a>
                 </button>
             </div>
         </div>
     </div>
 
     <!-- About us and services -->
-    <section class="bg-black/90">
+    <div class="bg-black/90" id="services">
         <div class="flex flex-col lg:flex-row justify-center mb-8">
             <div class="mt-12 px-4 flex flex-1 md:justify-end">
                 <img src="./img/section_1.jpg" alt="barba" class="w-screen lg:w-2/3">
@@ -64,7 +64,7 @@
                 <h4 class="md:text-5xl text-center">ABOUT US AND
                     <span class="text-orange-400">SERVICES</span>
                 </h4>
-                <p class="md:text-4xl md:mt-4 text-center lg:px-12">
+                <p class="md:text-4xl md:mt-4 text-center lg:px-12 p-3">
                     Welcome to Our Barbershop, a modern spin on the traditional Italian barbershop. We provide a special
                     environment designed to embrace a man's masculinity, minus all the macho.
                 </p>
@@ -138,10 +138,10 @@
                 </p>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Gallery -->
-    <div class="grid grid-cols-2 md:grid-cols-4">
+    <div class="grid grid-cols-2 md:grid-cols-4" id="galery">
         <div>
             <img src="./img/mt-2038-gallery-img01.jpg" class="md:h-full" alt="">
         </div>
@@ -178,6 +178,31 @@
                 OUR VIDEO <br>
                 <span class="text-#c59d5f"> PRESENTATION </span>
             </p>
+        </div>
+    </div>
+
+
+    <!-- Contact -->
+    <div class="bg-contact bg-cover bg-fixed" id="contact">
+        <div class="bg-black/60">
+            <form class="flex justify-center items-center flex-col p-5 m-auto">
+                <div>
+                    <p class="text-white text-center text-3xl">First Name</p>
+                    <input type="text" class="text-2xl text-center md:w-96">
+                </div>
+                <div>
+                    <p class="text-white text-center text-3xl mt-3">Last Name</p>
+                    <input type="text" class="text-2xl text-center md:w-96">
+                </div>
+                <div>
+                    <p class="text-white text-center text-3xl mt-3">Email</p>
+                    <input type="text" class="text-2xl text-center md:w-96">
+                </div>
+                <button class="text-white mt-6 p-3 md:p-4 text-2xl md:text-4xl tracking-wider border-2 uppercase 
+                hover:border-orange-400 hover:text-orange-400 transition duration-500">
+                    Send
+                </button>
+            </form>
         </div>
     </div>
 

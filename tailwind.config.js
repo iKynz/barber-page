@@ -6,7 +6,8 @@ module.exports = {
       backgroundImage: theme => ({
         'logo-barber': 'url(/src/img/barber-logo.png)',
         'backgroundFirst': 'url(/src/img/background-first.jpg)',
-        'ourvideo': 'url(/src/img/mt-2038-ourvideo.jpg)'
+        'ourvideo': 'url(/src/img/mt-2038-ourvideo.jpg)',
+        'contact': 'url(/src/img/mt-2038-contact.jpg)'
       }),
       height: {
         '95': '95vh',
